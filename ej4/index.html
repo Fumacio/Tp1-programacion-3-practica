@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ejercicio 4</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <h1 class="titulo">Ejercicio 4</h1>
+        <h1>Introduzca sus datos</h1>
+        <form id="formulario" class="formulario">
+
+            <div class="grupo-formulario">
+                <label>Nombre:</label>
+                <input type="text" id="nombre">
+            </div>
+
+            <div class="grupo-formulario">
+                <label>Apellido:</label>
+                <input type="text" id="apellido">
+            </div>
+
+            <div class="grupo-formulario">
+                <label>Dni:</label>
+                <input type="text" id="dni">
+            </div>
+
+            <div class="grupo-formulario">
+                <label>Dirección:</label>
+                <input type="text" id="direccion">
+            </div>
+
+            <div class="grupo-formulario">
+                <label>Salario por Mes:</label>
+                <input type="number" id="salarioXMes">
+            </div>
+
+            <button type="button" onclick="mostrarEmpleado()">Mostrar empleado</button>
+
+        </form>
+        
+
+        <div id="resultado" class="resultado"></div>
+    </div>
+</body>
+</html>

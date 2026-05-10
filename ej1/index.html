@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>EJERCICIO 1</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    
+    <div class="contenedor">
+        <h1 class="titulo">Ejercicio 1</h1>
+        <form id="formulario" class="formulario">
+            <div class="grupo-formulario">
+                <label>Marca:</label>
+                <input type="text" id="marca">
+            </div>
+
+            <div class="grupo-formulario">
+                <label>Modelo:</label>
+                <input type="text" id="modelo">
+            </div>
+
+            <div class="grupo-formulario">
+                <label>Año:</label>
+                <input type="number" id="año">
+            </div>
+
+            <div class="grupo-formulario">
+                <label>Color:</label>
+                <input type="text" id="color">
+            </div>
+
+            <div class="grupo-formulario">
+                <label>Estado:</label>
+                <select id="estado" required>
+                    <option value="">Selecciona un estado</option>
+                    <option value="Nuevo">Nuevo</option>
+                    <option value="Seminuevo">Seminuevo</option>
+                    <option value="Usado">Usado</option>
+                </select>
+            </div>
+
+            <div class="grupo-formulario">
+                <label>Precio ($):</label>
+                <input type="number" id="precio">
+            </div>
+
+            <button type="button" onclick="mostrarCoche()" class="boton">Mostrar Información</button>
+        </form>
+
+        <div id="resultado" class="resultado"><h2>El resultado se verá aqui:</h2></div>
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/028/295/239/small/concept-car-vehicle-silhouette-logo-icon-collection-set-auto-garage-dealership-brand-identity-design-elements-illustrations-vector.jpg" alt="autos">
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
