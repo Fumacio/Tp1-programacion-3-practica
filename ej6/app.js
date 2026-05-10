@@ -29,7 +29,7 @@ function agregarLibro() {
     // mostrar todos los libros en consola
     console.log("Libros registrados:", LibrosTotales);
 
-    // mostrar todos los libros en la página
+    // mostrar todos los libros en la pagina
     mostrarLibros();
 
     // limpiar formulario
